@@ -31,10 +31,10 @@ public class OverloadingDemo3 {
 		System.out.println("m1(String a)");
 	}
 
-	public void m1(B1 a)
-	{
-		System.out.println("m1(B1 a)");
-	}
+//	public void m1(B1 a)
+//	{
+//		System.out.println("m1(B1 a)");
+//	}
 
 	
 	public static void main(String[] args) {
