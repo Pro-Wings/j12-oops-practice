@@ -20,6 +20,20 @@ public class TestObjectClassMethods {
 		System.out.println(hascodeEmp2);
 		
 		
+		String className = emp2.getClass().getName();
+		
+		System.out.println("Class Name of emp2 is :"+className);
+		
+		int hascodeOfEmp2 = emp2.hashCode();
+		System.out.println("hascodeOfEmp2 : "+hascodeOfEmp2);
+		String hexDecConvertedHashCode = Integer.toHexString(hascodeOfEmp2);
+		System.out.println("hexDecConvertedHashCode : "+hexDecConvertedHashCode);
+
+		
+		System.out.println(emp2.toString());
+		
+		
+		
 	}
 	
 
